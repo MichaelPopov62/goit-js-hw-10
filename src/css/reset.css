@@ -21,6 +21,9 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+    color: #1981aa;
+      font-size: 25px;
+      text-shadow: 1px 1px 2px blue;
 }
 
 button {
