@@ -27,6 +27,99 @@ body {
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+/* Tast #1 */
+#datetime-picker {
+  margin-bottom: 32px;
+  margin-right: 4px;
+  width: 272px;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  transition: 250ms;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+#datetime-picker:focus {
+  outline: 3px solid rgba(128, 203, 196, 1);
+  border: 3px solid #fff;
+  /* background-color: rgba(128, 203, 196, 1); */
+}
+
+.timer {
+  margin: auto;
+  padding: 20px 30px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: #3b3b3b;
+  /* background-color: rgba(128, 203, 196, 0.6);  */
+  border-radius: 5px;
+
+
+
+}
+
+.value {
+  position: relative;
+  padding: 3px;
+  /* background-color: rgba(128, 203, 196, 0.6); */
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+}
+
+.label {
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  text-transform: uppercase;
+  
+}
+
+button {
+
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #cfcfcf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #989898;
+
+}
+
+.main-title {
+  margin-bottom: 28px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
 }

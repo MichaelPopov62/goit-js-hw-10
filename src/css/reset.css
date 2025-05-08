@@ -21,17 +21,27 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
-    color: #1981aa;
-      font-size: 25px;
-      text-shadow: 1px 1px 2px blue;
+  color: #1981aa;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px blue;
 }
 
 button {
   cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+input {
+  all: unset;
+  /* Видаляє всі стилі за замовчуванням */
+  width: 100px;
+  /* Тепер можна задати свій розмір */
+  height: 30px;
 }
