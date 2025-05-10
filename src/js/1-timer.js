@@ -8,7 +8,8 @@
   import iziToast from 'izitoast';
 
 //імпротую стилі для 'iziToast'
-  import 'izitoast/dist/css/iziToast.min.css';
+import 'izitoast/dist/css/iziToast.min.css';
+  
 
 /*створюю об'єкт для збереження посилань на елементи DOM, пошук елемента ведеться за селектором атрибуту*/
   const refs = {

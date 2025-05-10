@@ -8,13 +8,11 @@ import iziToast from 'izitoast';
 //Початкове повідомлення для користувача.Додано як випробовування.
 iziToast.info({
   title: 'Вітаємо!',
-  message: 'Система готова до роботи.',
+  message: 'Система готова до роботи.',// текст оповіщення
   position: 'topRight', // Позиція повідомлення
   timeout: 5000, // Час автозакриття (в мс)
   color: 'green', // Колір повідомлення
 });
-
-
 
 // Отримую доступ до елементів форми
 const form = document.querySelector(".form");
